@@ -1,0 +1,163 @@
+/*黄色 #fff096 ピンク #ff96b4 紺 #202d46*/
+body{
+  background-color: #ffff;
+  margin: 0%;
+}
+section {
+  display: flex;
+  font-family: 'Noto Sans JP',sans-serif;
+  height: auto;
+  width: auto;
+}
+/* 大枠*/
+.header {
+  color: #ff96b4;
+  display: flex;
+  width: 100%;
+  height: 100px;
+
+}
+.footer{
+  background-color: #202d46;
+  min-width: 100%;
+  height: 100px;
+  margin-top: 1%;
+  position: relative;
+}
+
+/* サイドバー */
+.sidebar{
+  color: #fff096;
+  background-color: #202d46;
+  min-width: 12%;
+  width: auto;
+  height:auto;
+}
+
+.menu{
+  list-style-type: none;
+  padding: 10%;
+  margin:0%;
+}
+.menuContents{
+  color: #fff096;
+  line-height: 250%;
+  font-size: 16px;
+  text-decoration: none;  
+}
+/* メイン */
+.mainArticle{
+  background-color: #ff96b4;
+  min-width: 87%;
+  width: auto;
+  height: auto;
+  min-height: 1000px;
+}
+.mainContent{
+  width: auto;
+  height: auto;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin: 0%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.mainContent li{
+  list-style-type: none;
+  margin: 1%;
+}
+
+.titleBox{
+  margin: 0%;
+  background-color: #ff96b4;
+}
+.title {
+  color: #fff096;
+  font-size: 60px;
+  margin: 0%;
+  padding: 1%;
+}
+.subTitle{
+  margin: 0%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.dj{
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 1%;
+}
+.img01 {
+  display: block;
+  width: 480px;
+  padding-left: 1%;
+  margin: 0%;
+}
+
+.imgDj{
+  width: 480px;
+}
+
+
+
+/* videos */
+.youtubeThumbnail{
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 1%;
+}
+.ytThumbnail {
+  width: 480px;
+  height: 270px;
+}
+
+/* release */
+.releaseThumbnail{
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 1%;
+}
+.reThumbnail{
+  width: 320px;
+  height: 320px;
+}
+
+
+.mainText{
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 0%;
+}
+.footer ul{
+  color: #fff096;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  padding: 0%;
+  left: 50%;
+  margin-right: -50%;
+  
+}
+
+.footer li{
+  display: inline-block;
+  list-style-type: none;
+  margin: 1%;
+}
+.footer a{
+  max-height: 30px;
+}
+
+.footer img{
+  width: 20px;
+  height: 20px;
+}
